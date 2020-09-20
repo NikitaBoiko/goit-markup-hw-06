@@ -957,30 +957,22 @@ border-radius: 0px 0px 4px 4px;
   color: var(--active);
 }
 /*  Форма-футер  */
-.footer-title {
-  text-transform: uppercase;
-  color: var(--white);
-  margin-bottom: 20px;
-}
-h4 {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  font-style: normal;
 
-  margin-bottom: 10px;
-}
 .form-input {
-  height: 48px;
+  height: 50px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 0 20px;
+  background-color: transparent;
 }
-
-.footer-part.joining.sighninig {
+.footer-title {
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 20px;
+  margin-left: 815px;
+}
+.footer-part.joining.sighning {
   display: flex;
 }
 
@@ -990,7 +982,7 @@ h4 {
   display: flex;
   align-items: center;
   text-align: center;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1008,7 +1000,7 @@ h4 {
   height: 24px;
   width: 24px;
   padding-left: 10px;
-  fill: var(--active);
+  fill: var(--white);
 }
 
 .form-field {
@@ -1016,6 +1008,7 @@ h4 {
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
+  margin-left: 815px;
 }
 
 .form-window {
